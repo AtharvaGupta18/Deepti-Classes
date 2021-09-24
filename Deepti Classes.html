@@ -25,11 +25,12 @@
                 var options = {
                     "roomName": randomString,
                     "parentNode": container,
-                    "width": 1520,
-                    "height": 650,
+                    "width": screen.width - 20,
+                    "height": screen.height - 190,
                 };
                 api = new JitsiMeetExternalAPI(domain, options);
              });
         </script>
     </body>
 </html>
+
